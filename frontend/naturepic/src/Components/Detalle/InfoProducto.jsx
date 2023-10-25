@@ -1,8 +1,12 @@
-const InfoProducto = ({ product }) => (
+import React from 'react';
+
+const InfoProducto = ({ product }) => {
+  return (
     <div>
-      <h1>{product.name}</h1>
+      <h2>{product.name}</h2>
       <p>{product.description}</p>
     </div>
   );
+};
 
-export default InfoProducto
+export default InfoProducto;
